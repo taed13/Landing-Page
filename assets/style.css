@@ -840,7 +840,7 @@ a {
 }
 
 .slide-container .slide.fade {
-  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;  
 }
 
 .slide-container .slide img {
@@ -857,7 +857,7 @@ a {
   }
   .section-explore-story .header-container-title
   {
-    transform: translate(100px, 100px);
+    /* transform: translate(100px, 100px); */
   }
   .section-explore-story .header-container-title h2
   {
@@ -869,4 +869,74 @@ a {
     color: #86868b;
     
   }
+.section-gamechanging
+{
+  position: relative;
+  background-color: black !important;
+  
+}
+.section-gamechanging .section-content
+{
+  position: absolute;
+  margin-top: 100px;
+}
+.section-gamechanging .section-content h4
+{
+ 
+     font-size: 80px;
+    line-height: 1.05;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.section-gamechanging .section-picture
+{
+  position: absolute;
+  display: flex;
+  flex-direction:row ;
+  /* justify-content: center; */
+  margin-top: 500px;
+}
+.section-gamechanging .section-picture .img4
+{
+  display: flex;
+  align-items:center;
+  transform: translateX(400px);
+ 
+}
+
+
+.section-gamechanging .section-picture .img3
+{
+  transform: matrix(1, 0, 0, 1, 300, -10);
+}
+.section-gamechanging .section-picture .img2
+{
+  transform: matrix(1, 0, 0, 1, 150, -120);
+}
+.section-gamechanging .section-picture .img1
+{
+  transform: matrix(1, 0, 0, 1, 150, -30);
+}
+.section-gamechanging .section-picture .img5
+{
+  transform: matrix(1, 0, 0, 1, 150, -30);
+}
+
+.section-gamechanging .section-picture .img6
+{
+  transform: matrix(1, 0, 0, 1, 150, -30);
+}
+.section-gamechanging .section-picture .img7
+{
+  transform: matrix(1, 0, 0, 1, 150, -30);
+}
+
+.section-gamechanging .section-picture .img8
+{
+  transform: matrix(1, 0, 0, 1, 150, -30);
+}
+
+
 
